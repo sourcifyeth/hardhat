@@ -1,5 +1,13 @@
 # hardhat
 
+## 2.17.2
+
+### Patch Changes
+
+- c00c689ae: Removed the superfluous zeros that were returned in the `memory` property when calling the `debug_traceTransaction` method.
+- 8ae64478d: Fixed an issue where artifactExists would throw an error for missing artifacts.
+- 45f49ae20: Improved error message displayed when importing a directory instead of a file.
+
 ## 2.17.1
 
 ### Patch Changes
